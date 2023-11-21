@@ -1,3 +1,9 @@
 export default function page (){
-    return <p>this is customers page</p>
+    return (
+        <div className="flex justify-center items-center w-full h-full bg-sky-500 rounded-lg">
+            <p className="font-bold text-3xl">
+                coming soon...
+            </p>
+        </div>
+    )
 }

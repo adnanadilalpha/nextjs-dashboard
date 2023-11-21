@@ -1,16 +1,15 @@
 import Link from 'next/link';
 import NavLinks from '@/app/ui/dashboard/nav-links';
 import Image from 'next/image';
-import AcmeLogo from '@/app/ui/acme-logo';
 import { PowerIcon } from '@heroicons/react/24/outline';
 import { signOut } from '@/auth';
  
 export default function SideNav() {
   return (
     <div className="flex h-full flex-col px-3 py-4 md:px-2">
-     <Link href='/dashboard' className='mb-8 mt-8'>
+        <Link href='/dashboard' className='flex justify-center mb-8 mt-8'>
       <Image 
-      src='/logo.png' 
+      src='/hive.png' 
       width={96}
       height={96}
       alt='logo picture written hive'></Image>
