@@ -10,7 +10,7 @@ import {
 import Link from 'next/link';
 import { Button } from '@/app/ui/button';
 import { UpdateInvoice } from './buttons';
-import {updateInvoice} from '@/app/ui/actions';
+import { updateInvoice } from '@/app/ui/actions';
 
 export default function EditInvoiceForm({
   invoice,
@@ -18,9 +18,7 @@ export default function EditInvoiceForm({
 }: {
   invoice: InvoiceForm;
   customers: CustomerField[];
-})
-
-{
+}) {
   const updateInvoiceWithId = updateInvoice.bind(null, invoice.id);
   return (
     <form action={updateInvoiceWithId}>

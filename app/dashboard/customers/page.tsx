@@ -1,9 +1,7 @@
-export default function page (){
-    return (
-        <div className="flex justify-center items-center w-full h-full bg-sky-500 rounded-lg">
-            <p className="font-bold text-3xl">
-                coming soon...
-            </p>
-        </div>
-    )
+export default function page() {
+  return (
+    <div className="flex h-full w-full items-center justify-center rounded-lg bg-sky-500">
+      <p className="text-3xl font-bold">coming soon...</p>
+    </div>
+  );
 }
